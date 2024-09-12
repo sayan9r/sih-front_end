@@ -1,0 +1,88 @@
+
+body{
+   /*  background-blend-mode:darken;*/
+     background-color:#000000;
+}
+h1{
+    color:#000000;
+    font-size:52px;
+    font-family:cursive;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-top:10px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 10% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.stp1{
+    
+background-color: transparent;    
+/*display:flex;
+flex-direction: row;*/
+
+}
+.part1{
+    height:300px;
+    width:50%;
+    border-radius: 50%;
+    background-image: url(Screenshot1.png);
+    background-position: center;
+    border:4px solid black;
+    margin-top:20px;
+    margin-left: 20px;
+    background-color:transparent;
+    
+    
+}
+.part2{
+
+    border-radius:50%;
+    
+   
+}
+.point{
+    color:pink;
+    font-size:50px;
+    font-family:cursive;
+    padding-left:20px;
+}
+.step2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-top: 80px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 90px;
+    /*box-shadow: 10px 9px 9px 3px saddlebrown;*/
+    
+  }
+  p{
+    color:#000000;
+    font-size: 22px;
+  }
+  .fw-normal{
+    color:white;
+  }
+  .opacity-75{
+    color:white;
+  }
